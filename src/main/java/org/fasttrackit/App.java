@@ -45,6 +45,7 @@ public class App
 
         System.out.println("Animal food name:" + animalFoodRefrence.name);
         System.out.println("Animal food expiration date:" + animalFoodRefrence.expirationDate);
+        System.out.println("Animal food stock:" + animalFoodRefrence.availablestock);
 
         System.out.println( "Recreational activity name:" + recreationalActivityRefrence.name);
 
