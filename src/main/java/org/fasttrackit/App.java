@@ -6,7 +6,10 @@ package org.fasttrackit;
  *
  */
 
-public class App 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class App
 {
     public static void main( String[] args )
     {
@@ -27,8 +30,8 @@ public class App
 
         AnimalFood animalFoodRefrence = new AnimalFood();
         animalFoodRefrence.amount = 10;
-        animalFoodRefrence.availablestock = 10;
-        animalFoodRefrence.expirationDate ="2001-11-12";
+        animalFoodRefrence.availablestock = true;
+        animalFoodRefrence.expirationDate = LocalDateTime.now();
         animalFoodRefrence.name = "Pedigre";
         animalFoodRefrence.price = 12.5;
 

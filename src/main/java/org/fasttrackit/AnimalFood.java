@@ -1,14 +1,13 @@
 package org.fasttrackit;
 
 
-
-
+import java.time.LocalDateTime;
 
 public class AnimalFood {
     String name;
     double price;
     double amount;
-    String expirationDate;
-    double availablestock;
+    LocalDateTime expirationDate;
+    boolean availablestock;
 
 }
