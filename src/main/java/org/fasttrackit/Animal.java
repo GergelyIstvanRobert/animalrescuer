@@ -7,7 +7,7 @@ public class Animal {
     int moodLevel;
     String favoriteFood;
     String nameFavoriteActivity;
-    String age;
+    int age;
 
 
 }
