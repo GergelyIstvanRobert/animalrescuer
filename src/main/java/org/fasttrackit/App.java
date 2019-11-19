@@ -30,7 +30,7 @@ public class App
 
         AnimalFood animalFoodRefrence = new AnimalFood();
         animalFoodRefrence.amount = 10;
-        animalFoodRefrence.availablestock = true;
+        animalFoodRefrence.availableStock = true;
         animalFoodRefrence.expirationDate = LocalDateTime.now();
         animalFoodRefrence.name = "Pedigre";
         animalFoodRefrence.price = 12.5;
