@@ -8,6 +8,6 @@ public class AnimalFood {
     double price;
     double amount;
     LocalDateTime expirationDate;
-    boolean availablestock;
+    boolean availableStock;
 
 }
