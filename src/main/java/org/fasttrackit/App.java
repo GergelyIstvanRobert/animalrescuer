@@ -15,6 +15,9 @@ public class App
     {
 
         System.out.println( "Hello Animal Rescuer!" );
+
+
+
         Adopter adopterRefrence = new Adopter();
         adopterRefrence.name = "Dan";
         adopterRefrence.moneyAvailable = 100.1;
