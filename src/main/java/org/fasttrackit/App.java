@@ -22,7 +22,7 @@ public class App
         adopterRefrence.name = "Dan";
         adopterRefrence.moneyAvailable = 100.1;
 
-        Animal animalRefrence = new Animal();
+        Animal animalRefrence = new Animal("Kira");
         animalRefrence.favoriteFood = "Meat";
         animalRefrence.healthLevel = 9;
         animalRefrence.hungerLevel = 8;
@@ -31,7 +31,8 @@ public class App
         animalRefrence.nameFavoriteActivity = "Running";
         animalRefrence.age = 3;
 
-        AnimalFood animalFoodRefrence = new AnimalFood();
+        AnimalFood animalFoodRefrence;
+        animalFoodRefrence = new AnimalFood("Pedigree");
         animalFoodRefrence.amount = 10;
         animalFoodRefrence.availableStock = true;
         animalFoodRefrence.expirationDate = LocalDateTime.now();

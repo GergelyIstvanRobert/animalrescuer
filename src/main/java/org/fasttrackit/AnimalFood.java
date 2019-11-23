@@ -7,4 +7,7 @@ public class AnimalFood extends Food{
     boolean edibleForAnimals;
 
 
+    public AnimalFood(String name) {
+        super(name);
+    }
 }
