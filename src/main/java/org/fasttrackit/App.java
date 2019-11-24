@@ -18,7 +18,7 @@ public class App
 
 
 
-        Adopter adopterRefrence = new Adopter();
+        Adopter adopterRefrence = new Adopter("Dan");
         adopterRefrence.name = "Dan";
         adopterRefrence.moneyAvailable = 100.1;
 
@@ -39,10 +39,10 @@ public class App
         animalFoodRefrence.name = "Pedigre";
         animalFoodRefrence.price = 12.5;
 
-        RecreationalActivity recreationalActivityRefrence = new RecreationalActivity();
+        RecreationalActivity recreationalActivityRefrence = new RecreationalActivity("Running");
         recreationalActivityRefrence.name="Running";
 
-        Vet vetRefrence = new Vet();
+        Vet vetRefrence = new Vet("Help All");
         vetRefrence.name = "Doctor";
         vetRefrence.specialization = "Help All";
 
