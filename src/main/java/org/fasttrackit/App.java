@@ -19,7 +19,6 @@ public class App
 
 
         Adopter adopterRefrence = new Adopter("Dan");
-        adopterRefrence.name = "Dan";
         adopterRefrence.moneyAvailable = 100.1;
 
         Animal animalRefrence = new Animal("Kira");
@@ -27,7 +26,6 @@ public class App
         animalRefrence.healthLevel = 9;
         animalRefrence.hungerLevel = 8;
         animalRefrence.moodLevel = 10;
-        animalRefrence.name = "Kira";
         animalRefrence.nameFavoriteActivity = "Running";
         animalRefrence.age = 3;
 
@@ -36,15 +34,14 @@ public class App
         animalFoodRefrence.amount = 10;
         animalFoodRefrence.availableStock = true;
         animalFoodRefrence.expirationDate = LocalDateTime.now();
-        animalFoodRefrence.name = "Pedigre";
         animalFoodRefrence.price = 12.5;
 
         RecreationalActivity recreationalActivityRefrence = new RecreationalActivity("Running");
-        recreationalActivityRefrence.name="Running";
+
 
         Vet vetRefrence = new Vet("Help All");
         vetRefrence.name = "Doctor";
-        vetRefrence.specialization = "Help All";
+
 
         System.out.println("Animal name:" + animalRefrence.name);
         System.out.println("Animal  favortie food:" + animalRefrence.favoriteFood);
@@ -61,7 +58,6 @@ public class App
 
         System.out.println("Vet name:" + vetRefrence.name);
         System.out.println("Vet specialization:" + vetRefrence.specialization);
-
 
 
 
