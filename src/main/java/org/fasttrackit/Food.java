@@ -3,11 +3,53 @@ package org.fasttrackit;
 import java.time.LocalDateTime;
 
 public class Food {
-    String name;
-    double price;
-    double amount;
-    LocalDateTime expirationDate;
-    boolean availableStock;
+    private String name;
+    private double price;
+    private double amount;
+    private LocalDateTime expirationDate;
+    private boolean availableStock;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public LocalDateTime getExpirationDate() {
+        return expirationDate;
+    }
+
+    public void setExpirationDate(LocalDateTime expirationDate) {
+        this.expirationDate = expirationDate;
+    }
+
+    public boolean isAvailableStock() {
+        return availableStock;
+    }
+
+    public void setAvailableStock(boolean availableStock) {
+        this.availableStock = availableStock;
+    }
+
+
 
     public Food(String name) {
         this.name = name;

@@ -19,45 +19,45 @@ public class App
 
 
         Adopter adopterRefrence = new Adopter("Dan");
-        adopterRefrence.moneyAvailable = 100.1;
+        adopterRefrence.setMoneyAvailable(100.1);
 
         Animal animalRefrence = new Animal("Kira");
-        animalRefrence.favoriteFood = "Meat";
-        animalRefrence.healthLevel = 9;
-        animalRefrence.hungerLevel = 8;
-        animalRefrence.moodLevel = 10;
-        animalRefrence.nameFavoriteActivity = "Running";
-        animalRefrence.age = 3;
+        animalRefrence.setFavoriteFood("Meat");
+        animalRefrence.setHealthLevel(9);
+        animalRefrence.setHungerLevel(8);
+        animalRefrence.setMoodLevel(10);
+        animalRefrence.setNameFavoriteActivity("Running");
+        animalRefrence.setAge(3);
 
         AnimalFood animalFoodRefrence;
         animalFoodRefrence = new AnimalFood("Pedigree");
-        animalFoodRefrence.amount = 10;
-        animalFoodRefrence.availableStock = true;
-        animalFoodRefrence.expirationDate = LocalDateTime.now();
-        animalFoodRefrence.price = 12.5;
+        animalFoodRefrence.setAmount(10);
+        animalFoodRefrence.setAvailableStock(true);
+        animalFoodRefrence.setExpirationDate(LocalDateTime.now());
+        animalFoodRefrence.setPrice(12.5);
 
         RecreationalActivity recreationalActivityRefrence = new RecreationalActivity("Running");
 
 
         Vet vetRefrence = new Vet("Help All");
-        vetRefrence.name = "Doctor";
+        vetRefrence.setName("Doctor");
 
 
-        System.out.println("Animal name:" + animalRefrence.name);
-        System.out.println("Animal  favortie food:" + animalRefrence.favoriteFood);
-        System.out.println("Animal  favortie activity:" + animalRefrence.nameFavoriteActivity);
+        System.out.println("Animal name:" + animalRefrence.getName());
+        System.out.println("Animal  favortie food:" + animalRefrence.getFavoriteFood());
+        System.out.println("Animal  favortie activity:" + animalRefrence.getNameFavoriteActivity());
 
-        System.out.println("The Adopter name:" + adopterRefrence.name);
-        System.out.println("The Adopter money available:" + adopterRefrence.moneyAvailable);
+        System.out.println("The Adopter name:" + adopterRefrence.getName());
+        System.out.println("The Adopter money available:" + adopterRefrence.getMoneyAvailable());
 
-        System.out.println("Animal food name:" + animalFoodRefrence.name);
-        System.out.println("Animal food expiration date:" + animalFoodRefrence.expirationDate);
-        System.out.println("Animal food stock:" + animalFoodRefrence.availableStock);
+        System.out.println("Animal food name:" + animalFoodRefrence.getName());
+        System.out.println("Animal food expiration date:" + animalFoodRefrence.getExpirationDate());
+        System.out.println("Animal food stock:" + animalFoodRefrence.isAvailableStock());
 
-        System.out.println( "Recreational activity name:" + recreationalActivityRefrence.name);
+        System.out.println( "Recreational activity name:" + recreationalActivityRefrence.getName());
 
-        System.out.println("Vet name:" + vetRefrence.name);
-        System.out.println("Vet specialization:" + vetRefrence.specialization);
+        System.out.println("Vet name:" + vetRefrence.getName());
+        System.out.println("Vet specialization:" + vetRefrence.getSpecialization());
 
 
 
