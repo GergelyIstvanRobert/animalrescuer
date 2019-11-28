@@ -25,15 +25,8 @@ public class Adopter {
     }
     public void AdopterFeedAnimal (String animalName,String foodName) {
         System.out.println(name + " just gave some " + foodName + " to " + animalName);
-
-
-
-
-
-
-
-
-
-
+    }
+    public void AdopterPlayAnimal (String animalName,String activityName) {
+        System.out.println(name + " play " + activityName + " whit " + animalName);
     }
 }

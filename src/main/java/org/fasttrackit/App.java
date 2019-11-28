@@ -58,7 +58,10 @@ public class App
 
         System.out.println("Vet name:" + vetRefrence.getName());
         System.out.println("Vet specialization:" + vetRefrence.getSpecialization());
+
         adopterRefrence.AdopterFeedAnimal("Kira","Pedigree");
+
+        adopterRefrence.AdopterPlayAnimal("Kira","running");
 
 
 
