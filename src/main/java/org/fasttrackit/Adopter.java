@@ -23,4 +23,17 @@ public class Adopter {
     public Adopter(String name) {
         this.name = name;
     }
+    public void AdopterFeedAnimal (String animalName,String foodName) {
+        System.out.println(name + " just gave some " + foodName + " to " + animalName);
+
+
+
+
+
+
+
+
+
+
+    }
 }
