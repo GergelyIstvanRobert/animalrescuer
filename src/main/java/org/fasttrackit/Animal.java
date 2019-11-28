@@ -9,6 +9,10 @@ public class Animal {
     private String nameFavoriteActivity;
     private int age;
 
+    public Animal(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
@@ -67,7 +71,5 @@ public class Animal {
 
 
 
-    public Animal(String name) {
-        this.name = name;
-    }
+
 }

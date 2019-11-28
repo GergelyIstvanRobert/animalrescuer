@@ -7,6 +7,9 @@ public class Pets extends Animal {
     public String getMaster() {
         return master;
     }
+    public Pets(String name) {
+        super(name);
+    }
 
     public void setMaster(String master) {
         this.master = master;
@@ -22,7 +25,5 @@ public class Pets extends Animal {
 
 
 
-    public Pets(String name) {
-        super(name);
-    }
+
 }

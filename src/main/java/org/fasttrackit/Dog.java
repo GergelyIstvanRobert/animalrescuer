@@ -7,11 +7,13 @@ public class Dog extends Pets {
         return biteLevel;
     }
 
+    public Dog(String name) {
+        super(name);
+    }
+
     public void setBiteLevel(int biteLevel) {
         this.biteLevel = biteLevel;
     }
 
-    public Dog(String name) {
-        super(name);
-    }
+
 }

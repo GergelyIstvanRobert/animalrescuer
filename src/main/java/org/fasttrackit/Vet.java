@@ -4,6 +4,10 @@ public class Vet {
     private String name;
     private String specialization;
 
+    public Vet(String specialization) {
+        this.specialization = specialization;
+    }
+
     public String getName() {
         return name;
     }
@@ -22,9 +26,7 @@ public class Vet {
 
 
 
-    public Vet(String specialization) {
-        this.specialization = specialization;
-    }
+
 
 
 

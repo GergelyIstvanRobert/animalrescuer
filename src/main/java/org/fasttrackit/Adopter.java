@@ -4,6 +4,10 @@ public class Adopter {
     private String name;
     private double moneyAvailable;
 
+    public Adopter(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
@@ -20,9 +24,7 @@ public class Adopter {
         this.moneyAvailable = moneyAvailable;
     }
 
-    public Adopter(String name) {
-        this.name = name;
-    }
+
     public void AdopterFeedAnimal (String animalName,String foodName) {
         System.out.println(name + " just gave some " + foodName + " to " + animalName);
     }

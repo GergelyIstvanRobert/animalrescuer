@@ -9,6 +9,9 @@ public class Food {
     private LocalDateTime expirationDate;
     private boolean availableStock;
 
+    public Food(String name) {
+        this.name = name;
+    }
     public String getName() {
         return name;
     }
@@ -51,7 +54,5 @@ public class Food {
 
 
 
-    public Food(String name) {
-        this.name = name;
-    }
+
 }
