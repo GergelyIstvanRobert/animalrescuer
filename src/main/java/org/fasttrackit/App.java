@@ -59,9 +59,24 @@ public class App
         System.out.println("Vet name:" + vetRefrence.getName());
         System.out.println("Vet specialization:" + vetRefrence.getSpecialization());
 
-        adopterRefrence.AdopterFeedAnimal("Kira","Pedigree");
+        Food animalFood = new Food("Pedigrie");
+        animalFood.getName();
+        Animal animal = new  Animal("Kira");
+        animal.getName();
+        System.out.println(adopterRefrence.getName() + " just gave some " + animalFood.getName() + " food to " + animal.getName());
+        System.out.println("Hungry level is: " + animal.getHungerLevel());
+        animal.setHungerLevel(animal.getHungerLevel() - 1);
 
-        adopterRefrence.AdopterPlayAnimal("Kira","running");
+        RecreationalActivity name = new RecreationalActivity("running");
+        recreationalActivityRefrence.getName();
+        Animal animal2 = new Animal("Kira");
+        animal.getName();
+        adopterRefrence.getName();
+        System.out.println(adopterRefrence.getName() + " play " + recreationalActivityRefrence.getName() + " whit " + animal.getName());
+        System.out.println(" Activity level is: " + animal.getMoodLevel());
+
+
+
 
 
 

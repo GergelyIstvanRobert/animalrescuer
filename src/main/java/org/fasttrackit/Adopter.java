@@ -25,10 +25,16 @@ public class Adopter {
     }
 
 
-    public void AdopterFeedAnimal (String animalName,String foodName) {
-        System.out.println(name + " just gave some " + foodName + " to " + animalName);
+
+    public void AdopterPlayAnimal (Animal animal,RecreationalActivity recreationalActivityName) {
+        System.out.println(getName() + " play " + recreationalActivityName.getName() + " whit " + animal.getName());
+        System.out.println("Mood level is " + animal.getMoodLevel());
+        animal.setMoodLevel(animal.getMoodLevel() - 1);
     }
-    public void AdopterPlayAnimal (String animalName,String activityName) {
-        System.out.println(name + " play " + activityName + " whit " + animalName);
+    public void feedAnimal(Food food, Animal animal) {
+        System.out.println(getName() + " just gave some " + food.getName() + " food to " + animal.getName());
+        System.out.println("Hungry level is: " + animal.getHungerLevel());
+        animal.setHungerLevel(animal.getHungerLevel() - 1);}
+
     }
-}
+
