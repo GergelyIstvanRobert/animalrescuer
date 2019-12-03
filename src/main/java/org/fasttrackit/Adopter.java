@@ -34,7 +34,34 @@ public class Adopter {
     public void feedAnimal(Food food, Animal animal) {
         System.out.println(getName() + " just gave some " + food.getName() + " food to " + animal.getName());
         System.out.println("Hungry level is: " + animal.getHungerLevel());
-        animal.setHungerLevel(animal.getHungerLevel() - 1);}
+        animal.setHungerLevel(animal.getHungerLevel() - 1);
+
+
+        animal.setFavoriteFood("Meat");
+
+
+
+        if (food.getName().equals(animal.getFavoriteFood())) {
+            animal.setMoodLevel(animal.getMoodLevel() + 1);
+                  }else {
+            animal.setMoodLevel(animal.getMoodLevel()-1);
+
+            System.out.println("The mood level increases favoritefood" + animal.getMoodLevel());
+
+
+        }
+
+
+
 
     }
+
+
+
+
+
+
+    }
+
+
 

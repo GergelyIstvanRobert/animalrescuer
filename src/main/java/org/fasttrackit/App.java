@@ -66,6 +66,7 @@ public class App
         System.out.println(adopterRefrence.getName() + " just gave some " + animalFood.getName() + " food to " + animal.getName());
         System.out.println("Hungry level is: " + animal.getHungerLevel());
         animal.setHungerLevel(animal.getHungerLevel() - 1);
+        System.out.println("The mood level increases food "  + animal.getMoodLevel());
 
         RecreationalActivity name = new RecreationalActivity("running");
         recreationalActivityRefrence.getName();
@@ -74,6 +75,8 @@ public class App
         adopterRefrence.getName();
         System.out.println(adopterRefrence.getName() + " play " + recreationalActivityRefrence.getName() + " whit " + animal.getName());
         System.out.println(" Activity level is: " + animal.getMoodLevel());
+
+
 
 
 
