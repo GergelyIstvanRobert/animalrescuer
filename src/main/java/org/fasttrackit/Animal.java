@@ -9,6 +9,10 @@ public class Animal {
     private String nameFavoriteActivity;
     private int age;
 
+    public void  animalMood (){
+        System.out.println("The animal is happy!");
+    }
+
     public Animal(String name) {
         this.name = name;
     }
@@ -68,6 +72,9 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
+
+
 
 
 

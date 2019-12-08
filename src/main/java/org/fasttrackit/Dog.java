@@ -7,6 +7,12 @@ public class Dog extends Pets {
         return biteLevel;
     }
 
+
+    @Override
+    public void  animalMood (){
+        System.out.println("The dog is happy!");
+    }
+
     public Dog(String name) {
         super(name);
     }

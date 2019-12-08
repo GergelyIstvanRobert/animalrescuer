@@ -4,6 +4,11 @@ public class Pets extends Animal {
     private String master;
     private String toys;
 
+    @Override
+    public void  animalMood (){
+        System.out.println("The pets is happy!");
+    }
+
     public String getMaster() {
         return master;
     }
